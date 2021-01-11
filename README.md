@@ -199,8 +199,13 @@ LoRa Mini Dev-JP
 13. 今はデータが16進なので、フォーマットするために「Payload Formats」をクリック <br>
 14. 真ん中あたりのコーディングスペースに以下のコードを入力すれば、データの表示が変わる <br>
 ```
-function hello(){
-　return "hello world!";
+function Decoder(bytes, port){
+  var humidity=bytes[0];
+  var temperature=bytes[1];
+  return{
+    humidity:humidity
+    temperature:temperature
+  }
 }
 ```
 
