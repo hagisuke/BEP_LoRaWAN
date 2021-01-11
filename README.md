@@ -197,9 +197,12 @@ LoRa Mini Dev-JP
 11. Arduino IDEでプログラムを書き込む <br>
 12. The Things Networkの「CONSOLE」＞「アプリケーション一覧」でアプリケーションを選択し、「データ」をクリックすると、受信が確認できる！ <br>
 13. 今はデータが16進なので、フォーマットするために「Payload Formats」をクリック <br>
-14. 真ん中らへんのコーディングスペースに 
-
-右を入力すれば、データの表示が変わる 
+14. 真ん中あたりのコーディングスペースに以下のコードを入力すれば、データの表示が変わる <br>
+```
+function hello(){
+　return "hello world!";
+}
+```
 
 ### DataStorageによるデータのストレージ
 ### IFTTT MakerによるWebサービス連携
@@ -209,7 +212,7 @@ LoRa Mini Dev-JP
 ## プログラム
 
 <a id="anchor6"></a>
-## LoRa miniの使い方
+## LoRa Miniの使い方
 
 <a id="anchor7"></a>
 ## 放流結果
