@@ -71,7 +71,7 @@ LoRa Mini Dev-JP
 ### The Things Network 概要
 [The Things Network（TTN）](https://www.thethingsnetwork.org/country/japan/)はLoRaWANのサービスを提供している情報共有プラットホームサービスである。LoRaWANシステムモデルの図の、ネットワークサーバーやユーザーアプリケーションを提供していると考えればよい。<br>
 今回のサポーター機の開発にあたり、このThe Things Networkを利用した。以下に登録手順や使い方を述べる。
-### The Things Networkの準備
+### The Things Networkとゲートウェイ、デバイスの準備
 #### アカウント作成
 1．[https://www.thethingsnetwork.org/country/japan/](https://www.thethingsnetwork.org/country/japan/)にアクセス<br>
 2．「Sign Up」からユーザー名とメールアドレス、パスワードを入れて「Create account」 <br>
@@ -153,8 +153,28 @@ LoRa Mini Dev-JP
 9. 上部メニューの「Sensor」＞「Flash MCU」に移動<br>
 10. ファイルを選択で先ほどのものを選び、「Flash Image」をクリック<br>
 11. 上部メニューの「Sensor」＞「LoRa/LoRaWAN」を開き、以下を入力<br>
-LoRaWAN Server Settings<br>
+**LoRaWAN Server Settings**
 
+|設定項目|設定値|
+|---|---|
+|Server Address |router.as2.thethings.network |
+|Server Port |1700 |
+|Gateway ID |The Things Networkに登録したゲートウェイID |
+|Mail Address |The Things Networkアカウントのメールアドレス |
+|Latitude |The Things Networkに登録したゲートウェイの緯度 |
+|Longtitude |The Things Networkに登録したゲートウェイの経度 |
+
+**Radio Settings*
+
+|設定項目|設定値|
+|---|---|
+|TX Frequency |923400000 |
+|RX Frequency |923200000 |
+|Encryption Key |設定なし |
+|Spreading Factor |SF7 |
+|Coding Rate |4/5 |
+|Signal Bandwidth |125kHz |
+|Preamble Length |8 |
 
 ### エンドノードの準備
 ### DataStorageによるデータのストレージ
