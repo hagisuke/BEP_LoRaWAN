@@ -164,7 +164,7 @@ LoRa Mini Dev-JP
 |Latitude |The Things Networkに登録したゲートウェイの緯度 |
 |Longtitude |The Things Networkに登録したゲートウェイの経度 |
 
-**Radio Settings*
+**Radio Settings**
 
 |設定項目|設定値|
 |---|---|
