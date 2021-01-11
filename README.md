@@ -33,8 +33,11 @@ WiFiと比べ通信速度が遅いというデメリットがあるが、以上�
 
 ## 使用したLoRaゲートウェイ、デバイス
 今回はDragino社のLoRaモジュールを用いた。
-* LG01-JP (Dragino) :LoRaWANゲートウェイ
-
+* LoRaWANゲートウェイ：LPS8-JP (Dragino) &yen; 28380<br>
+  普及型8チャンネル LoRaWANゲートウェイ LPS8-JP【技適取得済み】 [http://sales.dragino.jp/ca1/7/p0-r-s/](http://sales.dragino.jp/ca1/7/p0-r-s/)
+* LoRaWANデバイス1：LoRa Mini Dev-JP (Dragino)  &yen; 15875<br>
+　[https://jp.rs-online.com/web/p/communication-wireless-development-tools/1883151/](https://jp.rs-online.com/web/p/communication-wireless-development-tools/1883151/)
+* LoRaWANデバイス2：
 ## The Things Network
 ### The Things Network 概要
 The Things Network（TTN）は
@@ -56,6 +59,11 @@ The Things Network（TTN）は
 ## LoRa miniの使い方
 
 ## 放流結果
+
+## 今後の展開
+* LoRaWANゲートウェイ：LG01-JP (Dragino)  &yen; 11,142 <br>
+KKHMF LG01-P オープンソースLoRaゲートウェイ 915 MHz
+　[https://www.amazon.co.jp/dp/B0784RDBPT](https://www.amazon.co.jp/dp/B0784RDBPT)
 
 ## 参考文献
 1．The Things Network　「LoRaWAN」をみんなでシェアして使う（工学社）
