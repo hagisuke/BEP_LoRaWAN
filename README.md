@@ -55,7 +55,7 @@ WiFiと比べ通信速度が遅いというデメリットがあるが、以上�
 * LoRaWANデバイス2：LoRa Mini (Dragino) &yen; 10,164<br>
  [https://jp.rs-online.com/web/p/communication-wireless-development-tools/1883152/](https://jp.rs-online.com/web/p/communication-wireless-development-tools/1883152/)
  
-LoraWANゲートウェイLPS8-JPの日本語版マニュアルは以下のURLから参照できる。
+LoraWANゲートウェイLPS8-JPの日本語版マニュアルは以下のURLから参照できる。<br>
 [https://www.slideshare.net/copstalk/8lorawan-lps8jp-v120jp](https://www.slideshare.net/copstalk/8lorawan-lps8jp-v120jp)
 <img src="/image/LPS8-JP.jpg" width="400">
 ### LoRa Mini Dev-JPとLoRa Miniの違い
