@@ -1,15 +1,15 @@
 # BEP_LoRaWAN　マニュアル
 
 ## 目次
-1．[概要](#anchor1)
-2. [LoRaWAN](#anchor2)
-3. [使用したLoRaゲートウェイ、デバイス](#anchor3)
-4. [The Things Network](#anchor4)
-5. [プログラム](#anchor5)
-6. [LoRa Miniの使い方](#anchor6)
-7. [放流結果](#anchor7)
-8. [今後の展開](#anchor8)
-9．[参考文献](#anchor9)
+1. [概要](#anchor1)<br>
+2. [LoRaWAN](#anchor2)<br>
+3. [使用したLoRaゲートウェイ、デバイス](#anchor3)<br>
+4. [The Things Network](#anchor4)<br>
+5. [プログラム](#anchor5)<br>
+6. [LoRa Miniの使い方](#anchor6)<br>
+7. [放流結果](#anchor7)<br>
+8. [今後の展開](#anchor8)<br>
+9．[参考文献](#anchor9)<br>
 
 <a id="anchor1"></a>
 ## 概要
@@ -65,6 +65,8 @@ LoRa Mini
 <img src="/image/LoRa_Mini.PNG" width="400">
 LoRa Mini Dev-JP
 <img src="/image/LoRa_Mini_Dev-JP.PNG" width="400">
+
+<a id="anchor4"></a>
 ## The Things Network
 ### The Things Network 概要
 [The Things Network（TTN）](https://www.thethingsnetwork.org/country/japan/)はLoRaWANのサービスを提供している情報共有プラットホームサービスである。LoRaWANシステムモデルの図の、ネットワークサーバーやユーザーアプリケーションを提供していると考えればよい。<br>
@@ -107,17 +109,21 @@ LoRa Mini Dev-JP
 ### IFTTT MakerによるWebサービス連携
 
 
-
+<a id="anchor5"></a>
 ## プログラム
 
+<a id="anchor6"></a>
 ## LoRa miniの使い方
 
+<a id="anchor7"></a>
 ## 放流結果
 
+<a id="anchor8"></a>
 ## 今後の展開
 * LoRaWANゲートウェイ：LG01-JP (Dragino)  &yen; 11,142 <br>
 KKHMF LG01-P オープンソースLoRaゲートウェイ 915 MHz
 　[https://www.amazon.co.jp/dp/B0784RDBPT](https://www.amazon.co.jp/dp/B0784RDBPT)
 
+<a id="anchor9"></a>
 ## 参考文献
 1．The Things Network　「LoRaWAN」をみんなでシェアして使う（工学社）
