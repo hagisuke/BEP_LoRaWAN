@@ -1,2 +1,8 @@
-# BEP_LoRaWAN
-BEP2020にてサポーターで開発したLoRaWANを用いた通信デバイスに関するまとめ
+# BEP_LoRaWAN　マニュアル
+##概要
+##LoRaWAN
+##The Things Network
+##使用したLoRaデバイス
+##プログラム
+##LoRa miniの使い方
+##放流結果
