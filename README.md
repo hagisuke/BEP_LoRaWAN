@@ -25,9 +25,16 @@ WiFiと比べ通信速度が遅いというデメリットがあるが、以上�
 |一度に送信可能なデータ量| 数GB| 数kB|
 |通信速度|超高速|低速|
 
-
 ## The Things Network
+### The Things Network 概要
 The Things Network（TTN）は
+### The Things Networkの準備
+#### アカウント作成
+#### コンソール設定
+#### ゲートウェイ登録
+#### アプリケーションの登録
+
+### 
 
 ## 使用したLoRaゲートウェイ、デバイス
 
@@ -38,3 +45,4 @@ The Things Network（TTN）は
 ## 放流結果
 
 ## 参考文献
+1．The Things Network　「LoRaWAN」をみんなでシェアして使う（工学社）
