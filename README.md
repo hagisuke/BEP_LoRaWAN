@@ -43,8 +43,11 @@ WiFiと比べ通信速度が遅いというデメリットがあるが、以上�
 ### LoRa Mini Dev-JPとLoRa Miniの違い
 LoRa MiniはArduinoにも搭載されているAVR社のマイコン、ATmega328PとSX1276/78というLoRaWAN送受信用のモジュールを組み合わせたモジュールである。ATmega328Pには予めArduino UNO用のブートローダーが入っており、Arduino UNOとほぼ同じようにArduino IDEで開発できる。ただ、写真の通りピンやピンソケットがついていないため、プログラムのダウンロードやセンサーとの接続にははんだ付け作業が必要である。<br>
 一方でLoRa Miniを開発ボード化したものがLoRa Mini Dev-JPであり、USBによるプログラムのダウンロードやジャンパーワイヤーを使ったセンサーの動作確認などができるようになっている。今回のサポーター機の作成では、まずLoRa Mini Dev-JPが使えるか確認してから、LoRa Miniを使用してみた。
-![LoRa Mini]
+![LoRa Mini](/image/LoRa Mini.jpg)
+LoRa Mini
 
+![LoRa Mini Dev-JP](/image/LoRa Mini Dev-JP.jpg)
+LoRa Mini Dev-JP
 ## The Things Network
 ### The Things Network 概要
 The Things Network（TTN）は
