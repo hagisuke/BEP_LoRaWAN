@@ -4,7 +4,7 @@
 1. [概要](#anchor1)<br>
 2. [LoRaWAN](#anchor2)<br>
 3. [使用したLoRaゲートウェイ、デバイス](#anchor3)<br>
-4. [The Things Network](#anchor4)<br>
+4. [The Things NetworkとLoRa](#anchor4)<br>
 5. [プログラム](#anchor5)<br>
 6. [LoRa Miniの使い方](#anchor6)<br>
 7. [放流結果](#anchor7)<br>
@@ -67,11 +67,11 @@ LoRa Mini Dev-JP
 <img src="/image/LoRa_Mini_Dev-JP.PNG" width="400">
 
 <a id="anchor4"></a>
-## The Things Network
+## The Things NetworkとLoRa
 ### The Things Network 概要
 [The Things Network（TTN）](https://www.thethingsnetwork.org/country/japan/)はLoRaWANのサービスを提供している情報共有プラットホームサービスである。LoRaWANシステムモデルの図の、ネットワークサーバーやユーザーアプリケーションを提供していると考えればよい。<br>
 今回のサポーター機の開発にあたり、このThe Things Networkを利用した。以下に登録手順や使い方を述べる。
-### The Things Networkとゲートウェイ、デバイスの準備
+### The Things Networkの準備
 #### アカウント作成
 1．[https://www.thethingsnetwork.org/country/japan/](https://www.thethingsnetwork.org/country/japan/)にアクセス<br>
 2．「Sign Up」からユーザー名とメールアドレス、パスワードを入れて「Create account」 <br>
@@ -208,9 +208,11 @@ function Decoder(bytes, port){
   }
 }
 ```
+### アプリケーションとの連携
+#### Caynnesによるデータの可視化（ダッシュボード）
 
-### DataStorageによるデータのストレージ
-### IFTTT MakerによるWebサービス連携
+#### DataStorageによるデータのストレージ
+#### IFTTT MakerによるWebサービス連携
 
 
 <a id="anchor5"></a>
