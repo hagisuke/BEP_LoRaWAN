@@ -52,11 +52,21 @@ LoRa Mini Dev-JP
 <img src="/image/LoRa_Mini_Dev-JP.PNG" width="400">
 ## The Things Network
 ### The Things Network 概要
-The Things Network（TTN）は
+[The Things Network（TTN）](https://www.thethingsnetwork.org/country/japan/)はLoRaWANのサービスを提供している情報共有プラットホームサービスである。LoRaWANシステムモデルの図の、ネットワークサーバーやユーザーアプリケーションを提供していると考えればよい。<br>
+今回のサポーター機の開発にあたり、このThe Things Networkを利用した。以下に登録手順や使い方を述べる。
 ### The Things Networkの準備
 #### アカウント作成
+1．[https://www.thethingsnetwork.org/country/japan/](https://www.thethingsnetwork.org/country/japan/)にアクセス<br>
+2．「Sign Up」からユーザー名とメールアドレス、パスワードを入れて「Create account」 <br>
+3．認証メールが来るので、「Activate Account」をクリック、ログインできる <br>
 #### コンソール設定
+1．「CONSOLE」＞「Settings」＞「Language」を日本語にして「Save」で日本語化！<br> 
+2．「ハンドラー」＞「ttn-handler-asia-se」>「Save」をしておきましょう<br>
 #### ゲートウェイ登録
+1．「CONSOLE」＞「ゲートウェイ一覧」＞「ゲートウェイを登録」で登録画面へ <br>
+2．「I’ｍ using the legacy packet forwarder」にチェックを入れる <br>
+　　すると、「ゲートウェイID」が「ゲートウェイEUI」に変わるはず<br>
+3. 以下の各項目を入力して、「ゲートウェイ登録」をクリック
 #### アプリケーションの登録
 #### デバイスの登録
 ### ゲートウェイの準備
