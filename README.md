@@ -134,6 +134,28 @@ LoRa Mini Dev-JP
 |場所|地図上でのデバイスの位置に加え、高度もメートル単位で設定可能 |
 
 ### ゲートウェイの準備
+※WiFiかLANでパソコンと通信できることを前提とする <br>
+1. LG01-JPのIPアドレス（デフォルトは「10.130.1.1」）をブラウザに入力し、設定画面へ<br>
+2. Username（デフォルトは「root」）とPassword（デフォルトは「dragino」）を入力し、Login<br>
+  ※Login後、Passwordは変更すべき（上部メニューの「System」＞「Administration」から変更できる ）<br>
+3. 上部メニューの「Internet」＞「Internet Access」をクリックし、ネット接続設定をする<br>
+4. TeraTermなどのSSHクライアントでLG01-JPに接続、「ping [www.openwave.co.jp](www.openwave.co.jp) 」などと打ち込み通信できることを確認する（FQDN指定でpingを実行している）<br>
+5. Web設定画面に戻り、最初の画面の「Firmware Version」が「IoT-4.3.0」であるか確認 <br>
+  ※違う場合、以下の手順に従う<br>
+  5-1. オープンウェーブHPの下の方の「ダウンロード」をクリック<br>
+  5-2. 「ファームウェア/ドライバー」の中の、 「LG01-JP/OLG01-JPファームウェア（バージョン：IoT-4.3.0）」をダウンロード <br>
+  5-3. Web設定画面上部メニューの「System」＞「Backup/Flash Firmware」を開く<br>
+  5-4. 「Flash new firmware image」の「ファイルを選択」から先ほどダウンロードしたものを選択、「Flash Image」をクリック<br>
+6. 上部メニューの「Sensor」＞「IOT Server」を開く<br>
+7. IoT Server欄でLoRaWANを選択する<br>
+  ※Debuggerのオプションをチェックすると、上部メニューの「Status」＞「System Log」に詳細なログが記録されるので、開発中はチェックがおススメ <br>
+8. [オープンウェーブHPのダウンロード](http://www.openwave.co.jp/download/)から「LG01-JP/OLG01-JP用LoRaWAN受信プログラム（single_pkt_fwd_v002.hex）」をダウンロード<br>
+9. 上部メニューの「Sensor」＞「Flash MCU」に移動<br>
+10. ファイルを選択で先ほどのものを選び、「Flash Image」をクリック<br>
+11. 上部メニューの「Sensor」＞「LoRa/LoRaWAN」を開き、以下を入力<br>
+LoRaWAN Server Settings<br>
+
+
 ### エンドノードの準備
 ### DataStorageによるデータのストレージ
 ### IFTTT MakerによるWebサービス連携
