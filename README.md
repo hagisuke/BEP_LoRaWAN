@@ -40,14 +40,18 @@ WiFiと比べ通信速度が遅いというデメリットがあるが、以上�
 * LoRaWANデバイス2：LoRa Mini (Dragino) &yen; 10,164<br>
  [https://jp.rs-online.com/web/p/communication-wireless-development-tools/1883152/](https://jp.rs-online.com/web/p/communication-wireless-development-tools/1883152/)
  
+LoraWANゲートウェイLPS8-JPの日本語版マニュアルは以下のURLから参照できる。
+[https://www.slideshare.net/copstalk/8lorawan-lps8jp-v120jp](https://www.slideshare.net/copstalk/8lorawan-lps8jp-v120jp)
+![LPS8-JP](/image/LPS8-JP.jpg)
 ### LoRa Mini Dev-JPとLoRa Miniの違い
 LoRa MiniはArduinoにも搭載されているAVR社のマイコン、ATmega328PとSX1276/78というLoRaWAN送受信用のモジュールを組み合わせたモジュールである。ATmega328Pには予めArduino UNO用のブートローダーが入っており、Arduino UNOとほぼ同じようにArduino IDEで開発できる。ただ、写真の通りピンやピンソケットがついていないため、プログラムのダウンロードやセンサーとの接続にははんだ付け作業が必要である。<br>
-一方でLoRa Miniを開発ボード化したものがLoRa Mini Dev-JPであり、USBによるプログラムのダウンロードやジャンパーワイヤーを使ったセンサーの動作確認などができるようになっている。今回のサポーター機の作成では、まずLoRa Mini Dev-JPが使えるか確認してから、LoRa Miniを使用してみた。
-![LoRa Mini](/image/LoRa_Mini.PNG)
+一方でLoRa Miniを開発ボード化したものがLoRa Mini Dev-JPであり、USBによるプログラムのダウンロードやジャンパーワイヤーを使ったセンサーの動作確認などができるようになっている。今回のサポーター機の作成では、まずLoRa Mini Dev-JPが使えるか確認してから、LoRa Miniを使用してみた。<br>
 LoRa Mini
+![LoRa Mini](/image/LoRa_Mini.PNG)
 
-![LoRa Mini Dev-JP](/image/LoRa_Mini_Dev-JP.PNG)
 LoRa Mini Dev-JP
+![LoRa Mini Dev-JP](/image/LoRa_Mini_Dev-JP.PNG)
+
 ## The Things Network
 ### The Things Network 概要
 The Things Network（TTN）は
