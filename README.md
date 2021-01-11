@@ -33,9 +33,9 @@ WiFiと比べ通信速度が遅いというデメリットがあるが、以上�
 
 ## 使用したLoRaゲートウェイ、デバイス
 今回はDragino社のLoRaモジュールを用いた。
-* LoRaWANゲートウェイ：LPS8-JP (Dragino) &yen; 28380<br>
+* LoRaWANゲートウェイ：LPS8-JP (Dragino) &yen; 28,380<br>
   普及型8チャンネル LoRaWANゲートウェイ LPS8-JP【技適取得済み】 [http://sales.dragino.jp/ca1/7/p0-r-s/](http://sales.dragino.jp/ca1/7/p0-r-s/)
-* LoRaWANデバイス1：LoRa Mini Dev-JP (Dragino)  &yen; 15875<br>
+* LoRaWANデバイス1：LoRa Mini Dev-JP (Dragino)  &yen; 15,875<br>
 　[https://jp.rs-online.com/web/p/communication-wireless-development-tools/1883151/](https://jp.rs-online.com/web/p/communication-wireless-development-tools/1883151/)
 * LoRaWANデバイス2：
 ## The Things Network
