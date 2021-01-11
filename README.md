@@ -24,7 +24,7 @@ WiFiと比べ通信速度が遅いというデメリットがあるが、以上�
 |月額料金|4,000-5,000円|無料|
 |一度に送信可能なデータ量| 数GB| 数kB|
 |通信速度|超高速|低速|
-### LoRaゲートウェイとデバイス
+### LoRaWANシステム
 一般的なLoRaWANシステムは、以下のようになっている。
 ![サンマの塩焼き](/image/LoRaWANsystemmodel.jpg) 
 出典：[https://monoist.atmarkit.co.jp/mn/articles/1709/19/news004_3.html](https://monoist.atmarkit.co.jp/mn/articles/1709/19/news004_3.html)
