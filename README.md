@@ -152,7 +152,8 @@ LoRa Mini Dev-JP
 8. [オープンウェーブHPのダウンロード](http://www.openwave.co.jp/download/)から「LG01-JP/OLG01-JP用LoRaWAN受信プログラム（single_pkt_fwd_v002.hex）」をダウンロード<br>
 9. 上部メニューの「Sensor」＞「Flash MCU」に移動<br>
 10. ファイルを選択で先ほどのものを選び、「Flash Image」をクリック<br>
-11. 上部メニューの「Sensor」＞「LoRa/LoRaWAN」を開き、以下を入力<br>
+11. 上部メニューの「Sensor」＞「LoRa/LoRaWAN」を開き、以下を入力
+
 **LoRaWAN Server Settings**
 
 |設定項目|設定値|
@@ -177,6 +178,29 @@ LoRa Mini Dev-JP
 |Preamble Length |8 |
 
 ### エンドノードの準備
+※ここでは温度湿度センサDHT11を使用した例を示す <br>
+1. パソコンとLoRa Mini Dev-JPをUSBケーブルで接続<br>
+2. Arduino IDEを起動し、「ツール」＞「ボード」で「Arduino/Genuino Uno」を選択 <br>
+3. 「ツール」＞「シリアルポート」でUSBのポートを選択 <br>
+4. 「スケッチ」＞「ライブラリをインクルード」＞「ライブラリを管理」をクリック <br>
+5. ライブラリマネージャが起動するので、以下の3つを検索し、インストールする <br>
+  * DHT sersor library<br>
+  * Adafruit Unified Sensor<br>
+  * CayenneLPP <br>
+6. [オープンウェーブHPのダウンロード](http://www.openwave.co.jp/download/)から「LoRaWAN in C library(AS923対応版)」をダウンロード <br>
+7. Arduino IDEの「スケッチ」＞「ライブラリをインクルード」＞「ZIP形式のライブラリをインクルード」をクリック、先ほどのZIPファイルを選択するとインストールされる <br>
+8. LoRa Mini Dev-JPとDHT11をジャンパ線でつなぐ（データ線はA0につないでおく<span style="color : red">DHT11はデジタルピンでは？</span>） <br>
+9. [オープンウェーブHPのダウンロード](http://www.openwave.co.jp/download/)から「温度湿度センサThe Things Networkサンプル（ABP版or OTAA版）」をダウンロード <br>
+10. デバイス登録時のサンプルコードをもとに、ダウンロードしたプログラムの以下を修正 <br>
+  * ABP：DEVADDRとNWKSKEYとAPPSKEY<br>
+  * OTAA：DEVEUIとAPPEUIとAPPKEY <br>
+11. Arduino IDEでプログラムを書き込む <br>
+12. The Things Networkの「CONSOLE」＞「アプリケーション一覧」でアプリケーションを選択し、「データ」をクリックすると、受信が確認できる！ <br>
+13. 今はデータが16進なので、フォーマットするために「Payload Formats」をクリック <br>
+14. 真ん中らへんのコーディングスペースに 
+
+右を入力すれば、データの表示が変わる 
+
 ### DataStorageによるデータのストレージ
 ### IFTTT MakerによるWebサービス連携
 
