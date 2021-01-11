@@ -24,6 +24,13 @@ WiFiと比べ通信速度が遅いというデメリットがあるが、以上�
 |月額料金|4,000-5,000円|無料|
 |一度に送信可能なデータ量| 数GB| 数kB|
 |通信速度|超高速|低速|
+### LoRaゲートウェイとエンドノード
+一般的なLoRaWANシステムは、以下のようになっている。
+
+
+## 使用したLoRaゲートウェイ、デバイス
+今回はDragino社のLoRaモジュールを用いた。
+* LG01-JP (Dragino) :LoRaWANゲートウェイ
 
 ## The Things Network
 ### The Things Network 概要
@@ -36,8 +43,10 @@ The Things Network（TTN）は
 #### デバイスの登録
 ### ゲートウェイの準備
 ### エンドノードの準備
+### DataStorageによるデータのストレージ
+### IFTTT MakerによるWebサービス連携
 
-## 使用したLoRaゲートウェイ、デバイス
+
 
 ## プログラム
 
