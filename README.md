@@ -292,9 +292,13 @@ LoRaWANでは暗号化について規定があり、デバイス・ゲートウ�
 #### ABP(Activation by Personalization)方式
 暗号化には、セッションキーとデバイスアドレスが必要になるが、ABPではLoRaWANサーバーで予め発行したアプリケーションセッションキー（AppSKey）、ネットワークセッションキー（NwkSKey）デバイスアドレス（DevAddr）を、プログラムを通じてデバイスに書き込んでおく。NwkSKeyがデバイスとゲートウェイ間で通信する際のデバイスの照合に用いられ、こちらは公開される。一方でAppSKeyは秘密鍵であり、ペイロードの暗号化と復号に用いられる。概念図は以下のようになる。
 
-
+![ABP方式](/image/activation/ABP_Activation.PNG) 
+出典：[https://www.rs-online.com/designspark/what-is-the-activation-method-on-lorawan-abp-and-otaa-jp](https://www.rs-online.com/designspark/what-is-the-activation-method-on-lorawan-abp-and-otaa-jp)
 
 #### OTAA(Over-The-Air Activation)方式
+
+![OTAA方式](/image/activation/OTAA_Activation.PNG) 
+出典：[https://www.rs-online.com/designspark/what-is-the-activation-method-on-lorawan-abp-and-otaa-jp](https://www.rs-online.com/designspark/what-is-the-activation-method-on-lorawan-abp-and-otaa-jp)
 
 <a id="anchor6"></a>
 ## LoRa Miniの使い方
