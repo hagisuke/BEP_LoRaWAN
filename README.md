@@ -331,7 +331,7 @@ LoRa MiniはAVR社のマイコン、ATmega328PとSX1276/78というLoRaWAN送受
 ATmega328PはAVR社のマイコンであり、Arduinoにも搭載されている。<br>
 同じ電子部品でもパッケージの種類が複数あり、例えばArduino UNOではDIP-28やTQFP-32などのパッケージのATmega328Pを用いている。
 
-<image src="/image/LoraMini/ArduinoUNO_DIP.png" width="400">
+<image src="/image/LoRaMini/ArduinoUNO_DIP.png" width="400">
 
 
 ### 
