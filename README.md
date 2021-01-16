@@ -397,7 +397,7 @@ ATmega328Pにプログラムをダウンロードするには、あらかじめ�
 
 また今回はGPSデータを取得するため、シールドにGPSセンサー用の回路を追加した。
 
-<image src="/image/LoRaMini/LoRaMini_GPScircuit.png">
+<image src="/image/LoRaMini/LoRaMini_GPScircuit.png" width="400">
 
 ### アンテナ
 LoRa Miniはアンテナが別売りなので、以下の物品を購入した。
@@ -408,8 +408,10 @@ LoRa Miniはアンテナが別売りなので、以下の物品を購入した�
   
 ### プログラムのダウンロード
 1. Arduino UNOのATmega328Pを取り外す
-2. Arduino UNO
-
+2. Arduino UNOの上にシールドをかぶせ、Arduino UNOとPCをUSBで接続する。
+3. Arduino IDEの「ツール」＞「書き込み装置」から、"Arduino as ISP"を選択
+4. Arduino IDEの「ツール」＞「ボード」から、"Arduino UNO"を選択
+5. プログラムの書き込みを行う
 
 <a id="anchor8"></a>
 ## 放流結果
