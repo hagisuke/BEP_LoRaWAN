@@ -75,9 +75,7 @@ LoRa Mini Dev-JP
 今回のサポーター機の開発にあたり、このThe Things Networkを利用した。以下に登録手順や使い方を述べる。
 ### The Things Networkの準備
 
-<details>
-   <style>details {transition: .5s; }</style>
-<summary>詳細を表示</summary><div>
+<details><summary>詳細を表示</summary><div>
 
 #### アカウント作成
 1．[https://www.thethingsnetwork.org/country/japan/](https://www.thethingsnetwork.org/country/japan/)にアクセス<br>
@@ -143,6 +141,8 @@ LoRa Mini Dev-JP
 </div></details>
 
 ### ゲートウェイの準備
+<details><summary>詳細を表示</summary><div>
+
 ※WiFiかLANでパソコンと通信できることを前提とする <br>
 1. LG01-JPのIPアドレス（デフォルトは「10.130.1.1」）をブラウザに入力し、設定画面へ<br>
 2. Username（デフォルトは「root」）とPassword（デフォルトは「dragino」）を入力し、Login<br>
@@ -186,7 +186,10 @@ LoRa Mini Dev-JP
 |Signal Bandwidth |125kHz |
 |Preamble Length |8 |
 
+</div></details>
 ### エンドノードの準備
+<details><summary>詳細を表示</summary><div>
+  
 ※ここでは温度湿度センサDHT11を使用した例を示す <br>
 1. パソコンとLoRa Mini Dev-JPをUSBケーブルで接続<br>
 2. Arduino IDEを起動し、「ツール」＞「ボード」で「Arduino/Genuino Uno」を選択 <br>
@@ -217,7 +220,11 @@ function Decoder(bytes, port){
   }
 }
 ```
+
+</div></details>
 ### アプリケーションとの連携
+<details><summary>詳細を表示</summary><div>
+
 #### Cayenneによるデータの可視化（ダッシュボード）
 1. [https://mydevices.com](https://mydevices.com )にアクセスし、右上のLog inをクリック<br>
 2. Cayenneを選択し、Log in画面の下にあるRegisterをクリックし、新規アカウントを作成<br>
@@ -249,6 +256,7 @@ function Decoder(bytes, port){
 #### DataStorageによるデータのストレージ
 #### IFTTT MakerによるWebサービス連携
 
+</div></details>
 
 <a id="anchor5"></a>
 ## プログラム
