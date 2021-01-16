@@ -211,7 +211,33 @@ function Decoder(bytes, port){
 }
 ```
 ### アプリケーションとの連携
-#### Caynnesによるデータの可視化（ダッシュボード）
+#### Cayenneによるデータの可視化（ダッシュボード）
+1. [https://mydevices.com](https://mydevices.com )にアクセスし、右上のLog inをクリック<br>
+2. Cayenneを選択し、Log in画面の下にあるRegisterをクリックし、新規アカウントを作成<br>
+3. 「LoRa」を選択<br>
+4. 左のリストから「The Things Network」を選び、右のリストから「Cayenne LPP」を選択する<br>
+5. 以下の項目を設定すると、ダッシュボードが開く<br>
+|設定項目|設定内容|
+|---|---|
+|Name|表示される際の名前|
+|DevEUI|The Things Networkで取得したDevEUI|
+|Activation Mode|Already registered|
+|Location|This device doesn't move|
+
+6. ブラウザのURLの最後の「/」以降がプロセスのIDなのでメモしておく<br>
+7．The Things Networkの「CONSOLE」＞「アプリケーション一覧」から連携する<br>
+  * アプリケーションを選び、「Payload Formats」をクリック<br>
+  * 一番上の欄で「Cayenne LPP」を選び、Save<br>
+  * 「インテグレーション」＞「インテグレーションの追加」＞「MyDevices」<br>
+  * プロセスIDに先ほどメモしたものを、AccesKeyのDefault Keyに「devices」「messages」<br>
+  * 「インテグレーションの追加」をクリック<br>
+8. [オープンウェーブHPのダウンロード](http://www.openwave.co.jp/download/)から「温度湿度センサThe Things Network-Cayenneサンプル（ABP版or OTAA版）」をダウンロード<br>
+9．デバイス登録時のサンプルコードをもとに、ダウンロードしたプログラムの以下の部分を修正<br>
+  ABP：DEVADDRとNWKSKEYとAPPSKEY<br>
+  OTAA：DEVEUIとAPPEUIとAPPKEY<br>
+10．Arduino IDEでプログラムを書き込む<br>
+11．CayenneのWeb画面を開くと、データが表示される<br>
+  ※AndroidのCayenneアプリでも見れる
 
 #### DataStorageによるデータのストレージ
 #### IFTTT MakerによるWebサービス連携
