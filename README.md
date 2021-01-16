@@ -310,7 +310,7 @@ OTAAでは、デバイスごとにことなるセッションキーやデバイ�
 
 出典: [ https://www.rs-online.com/designspark/what-is-the-activation-method-on-lorawan-abp-and-otaa-jp ](https://www.rs-online.com/designspark/what-is-the-activation-method-on-lorawan-abp-and-otaa-jp )
 
-よりTTNでのアクティベーション方式や暗号化については、[https://www.thethingsnetwork.org/docs/lorawan/security.html](https://www.thethingsnetwork.org/docs/lorawan/security.html) を参照。
+TTNでのアクティベーション方式や暗号化の詳細については、[https://www.thethingsnetwork.org/docs/lorawan/security.html](https://www.thethingsnetwork.org/docs/lorawan/security.html) を参照。
 
 今回のサポーター機ではABP方式を用いた。
 
