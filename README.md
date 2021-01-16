@@ -225,18 +225,18 @@ function Decoder(bytes, port){
 |Location|This device doesn't move|
 
 6. ブラウザのURLの最後の「/」以降がプロセスのIDなのでメモしておく<br>
-7．The Things Networkの「CONSOLE」＞「アプリケーション一覧」から連携する<br>
+7. The Things Networkの「CONSOLE」＞「アプリケーション一覧」から連携する<br>
   * アプリケーションを選び、「Payload Formats」をクリック<br>
   * 一番上の欄で「Cayenne LPP」を選び、Save<br>
   * 「インテグレーション」＞「インテグレーションの追加」＞「MyDevices」<br>
   * プロセスIDに先ほどメモしたものを、AccesKeyのDefault Keyに「devices」「messages」<br>
   * 「インテグレーションの追加」をクリック<br>
 8. [オープンウェーブHPのダウンロード](http://www.openwave.co.jp/download/)から「温度湿度センサThe Things Network-Cayenneサンプル（ABP版or OTAA版）」をダウンロード<br>
-9．デバイス登録時のサンプルコードをもとに、ダウンロードしたプログラムの以下の部分を修正<br>
+9. デバイス登録時のサンプルコードをもとに、ダウンロードしたプログラムの以下の部分を修正<br>
   ABP：DEVADDRとNWKSKEYとAPPSKEY<br>
   OTAA：DEVEUIとAPPEUIとAPPKEY<br>
-10．Arduino IDEでプログラムを書き込む<br>
-11．CayenneのWeb画面を開くと、データが表示される<br>
+10. Arduino IDEでプログラムを書き込む<br>
+11. CayenneのWeb画面を開くと、データが表示される<br>
   ※AndroidのCayenneアプリでも見れる
 
 #### DataStorageによるデータのストレージ
