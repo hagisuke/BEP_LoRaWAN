@@ -327,7 +327,7 @@ LoRa Mini Dev-JPはLoRaモジュール用の開発ボードであり、Arduino U
 
 Arduino UNOとの相違点はピンの対応のみである。以下にデータシートに記載されているピンの対応図を載せる。
 
-<image src="/image/LoRaMini/LoRaMini_pin.png" width="400">
+<image src="/image/LoRaMini/LoRaMini_pin.PNG" width="400">
   
 出典: [https://docs.rs-online.com/7023/A700000006486751.pdf](https://docs.rs-online.com/7023/A700000006486751.pdf)
 
@@ -359,6 +359,7 @@ ATmega328Pにプログラムをダウンロードするには、あらかじめ�
 
 参考までに、LoRa Mini内のATmega328PのパッケージはTQFP-32である。TQFP-32パッケージの場合のピンの配置は以下の図のようになっている。LoRa Miniの回路図を見る際に参考になるかもしれない。
 
+<img src="/image/LoRaMini/ATmega328P_TQFP_pinout.jpg" width="400">
 
 ### 
 
