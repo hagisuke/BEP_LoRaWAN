@@ -321,6 +321,7 @@ OTAAでは、デバイスごとにことなるセッションキーやデバイ�
 
 <a id="anchor6"></a>
 ## LoRa Miniの使い方
+LoRa Mini
 ### 
 
 
