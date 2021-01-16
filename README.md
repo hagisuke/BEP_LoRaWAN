@@ -294,13 +294,17 @@ LoRaWANでは暗号化について規定があり、デバイス・ゲートウ�
 
 <img src="/image/activation/ABP_Activation.png" width="400">
 
-[https://www.rs-online.com/designspark/what-is-the-activation-method-on-lorawan-abp-and-otaa-jp](https://www.rs-online.com/designspark/what-is-the-activation-method-on-lorawan-abp-and-otaa-jp)
+出典: [https://www.rs-online.com/designspark/what-is-the-activation-method-on-lorawan-abp-and-otaa-jp](https://www.rs-online.com/designspark/what-is-the-activation-method-on-lorawan-abp-and-otaa-jp)
 
 #### OTAA(Over-The-Air Activation)方式
+OTAAでは、デバイスごとにことなるセッションキーやデバイスアドレスを取得してデバイスに書き込んでおく必要がなく、プログラム開始時にサーバーとの暗号化通信に必要な情報をやりとりする。具体的には、以下の順序に従って行われる。<br>
+まず、デバイスが参加要求をLoRaWANサーバーに送信する。参加要求では、アプリケーションEUI、デバイスEUI、アプリケーションキーなどが送信される。これをもとにサーバー側がデバイスアドレスや各種セッションキーを含む要求承認を行う。これをもとに、暗号化通信が開始される。
 
 <img src="/image/activation/OTAA_Activation.png" width="400">
 
 出典: [ https://www.rs-online.com/designspark/what-is-the-activation-method-on-lorawan-abp-and-otaa-jp ](https://www.rs-online.com/designspark/what-is-the-activation-method-on-lorawan-abp-and-otaa-jp )
+
+よりTTNでのアクティベーション方式や暗号化については、[https://www.thethingsnetwork.org/docs/lorawan/security.html](https://www.thethingsnetwork.org/docs/lorawan/security.html) を参照。
 
 <a id="anchor6"></a>
 ## LoRa Miniの使い方
