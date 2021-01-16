@@ -74,6 +74,8 @@ LoRa Mini Dev-JP
 [The Things Network（TTN）](https://www.thethingsnetwork.org/country/japan/)はLoRaWANのサービスを提供している情報共有プラットホームサービスである。LoRaWANシステムモデルの図の、ネットワークサーバーやユーザーアプリケーションを提供していると考えればよい。<br>
 今回のサポーター機の開発にあたり、このThe Things Networkを利用した。以下に登録手順や使い方を述べる。
 ### The Things Networkの準備
+<details transition=".5s;">詳細を見る<summary></summary><div>
+
 #### アカウント作成
 1．[https://www.thethingsnetwork.org/country/japan/](https://www.thethingsnetwork.org/country/japan/)にアクセス<br>
 2．「Sign Up」からユーザー名とメールアドレス、パスワードを入れて「Create account」 <br>
@@ -134,6 +136,8 @@ LoRa Mini Dev-JP
 |---|---|
 |一般 |「記述」にデバイスの名前を付ける、他にもいろいろ設定可能 <br>※アクティベーション方式はOTAA、ABPどちらか選択（後で関係する） |
 |場所|地図上でのデバイスの位置に加え、高度もメートル単位で設定可能 |
+
+</div></details>
 
 ### ゲートウェイの準備
 ※WiFiかLANでパソコンと通信できることを前提とする <br>
