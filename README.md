@@ -6,10 +6,11 @@
 3. [使用したLoRaゲートウェイ、デバイス](#anchor3)<br>
 4. [The Things NetworkとLoRa](#anchor4)<br>
 5. [プログラム](#anchor5)<br>
-6. [LoRa Miniの使い方](#anchor6)<br>
-7. [放流結果](#anchor7)<br>
-8. [今後の展開](#anchor8)<br>
-9. [参考文献](#anchor9)<br>
+6. [LoRa Mini Dev-JPの使い方](#anchor6)<br>
+7. [LoRa Miniの使い方](#anchor7)<br>
+8. [放流結果](#anchor8)<br>
+9. [今後の展開](#anchor9)<br>
+10. [参考文献](#anchor10)<br>
 
 <a id="anchor1"></a>
 ## 概要
@@ -60,7 +61,7 @@ LoraWANゲートウェイLPS8-JPの日本語版マニュアルは以下のURLか
 
 <img src="/image/LPS8-JP.jpg" width="400">
 
-<a id="anchor10"></a>
+<a id="anchor11"></a>
 ### LoRa Mini Dev-JPとLoRa Miniの違い
 LoRa MiniはArduinoにも搭載されているAVR社のマイコン、ATmega328PとSX1276/78というLoRaWAN送受信用のモジュールを組み合わせたモジュールである。ATmega328Pには予めArduino UNO用のブートローダーが入っており、Arduino UNOとほぼ同じようにArduino IDEで開発できる。ただ、写真の通りピンやピンソケットがついていないため、プログラムのダウンロードやセンサーとの接続にははんだ付け作業が必要である。<br>
 一方でLoRa Miniを開発ボード化したものがLoRa Mini Dev-JPであり、USBによるプログラムのダウンロードやジャンパーワイヤーを使ったセンサーの動作確認などができるようになっている。今回のサポーター機の作成では、まずLoRa Mini Dev-JPが使えるか確認してから、LoRa Miniを使用してみた。<br>
@@ -321,8 +322,16 @@ OTAAでは、デバイスごとにことなるセッションキーやデバイ�
 #### プログラムの説明
 
 <a id="anchor6"></a>
+## LoRa Mini Dev-JPの使い方
+LoRa Mini Dev-JPはLoRaモジュール用の開発ボードであり、Arduino UNOと互換性があるため、Arduino IDEでプログラミングができる。USBシリアル変換モジュールがついているので、プログラムのダウンロード方法もArduino UNOと同様である。（IDEのボードの設定も"Arduino Uno"のままで良い）また、アンテナも予めついている。
+
+Arduino UNOとの相違点はピンの対応のみである。以下にデータシートに記載されているピンの対応図を載せる。
+
+
+
+<a id="anchor7"></a>
 ## LoRa Miniの使い方
-[LoRa Mini Dev-JPとLoRa Miniの違い](#anchor10)で述べたように、LoRa Miniは開発用ボードではないので、USBシリアル変換モジュールや電源ポートなどもついていない。今回はLoRa通信を行えるArduino UNO用のシールドを作成するという方針でLoRa Miniを使用することにした。<br>
+[LoRa Mini Dev-JPとLoRa Miniの違い](#anchor11)で述べたように、LoRa Miniは開発用ボードではないので、USBシリアル変換モジュールや電源ポートなどもついていない。今回はLoRa通信を行えるArduino UNO用のシールドを作成するという方針でLoRa Miniを使用することにした。<br>
 LoRa MiniはAVR社のマイコン、ATmega328PとSX1276/78というLoRaWAN送受信用のモジュールを組み合わせたモジュールを組み合わせたモジュールであり、それ自身がArduino UNOと等価なマイコンを積んでいるため、Arduino UNOの上にLoRa Miniをシールドとして取り付ける方法は冗長である。本来はSX1276/78のみをシールド化できれば最善だが、市販でSX1276/78が単体で販売されていなかったので、本方法を採用した。
 
 回路図の設計を行ううえで、Dragino社のGithubに掲載されているLoRa Miniの回路図などを参考にした。<br>
@@ -349,15 +358,15 @@ TQFP-32パッケージのATmega328Pを搭載したArduino UNO
 ### 
 
 
-<a id="anchor7"></a>
+<a id="anchor8"></a>
 ## 放流結果
 
-<a id="anchor8"></a>
+<a id="anchor9"></a>
 ## 今後の展開
 * LoRaWANゲートウェイ：LG01-JP (Dragino)  &yen; 11,142 <br>
 KKHMF LG01-P オープンソースLoRaゲートウェイ 915 MHz
 　[https://www.amazon.co.jp/dp/B0784RDBPT](https://www.amazon.co.jp/dp/B0784RDBPT)
 
-<a id="anchor9"></a>
+<a id="anchor10"></a>
 ## 参考文献
 1．The Things Network　「LoRaWAN」をみんなでシェアして使う（工学社）
