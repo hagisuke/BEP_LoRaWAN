@@ -306,8 +306,23 @@ OTAAでは、デバイスごとにことなるセッションキーやデバイ�
 
 よりTTNでのアクティベーション方式や暗号化については、[https://www.thethingsnetwork.org/docs/lorawan/security.html](https://www.thethingsnetwork.org/docs/lorawan/security.html) を参照。
 
+今回のサポーター機ではABP方式を用いた。
+
+### プログラムの概略
+
+#### 使用したライブラリ
+* SPI library（標準ライブラリ）
+* SoftwareSerial library（標準ライブラリ）
+* [Arduino-LMIC library](https://github.com/matthijskooijman/arduino-lmic)
+* [CayenneLPP library](https://github.com/ElectronicCats/CayenneLPP)
+* [TinyGPSPlus library](https://github.com/mikalhart/TinyGPSPlus)
+
+#### プログラムの説明
+
 <a id="anchor6"></a>
 ## LoRa Miniの使い方
+### 
+
 
 <a id="anchor7"></a>
 ## 放流結果
