@@ -60,6 +60,7 @@ LoraWANゲートウェイLPS8-JPの日本語版マニュアルは以下のURLか
 
 <img src="/image/LPS8-JP.jpg" width="400">
 
+<a id="anchor10"></a>
 ### LoRa Mini Dev-JPとLoRa Miniの違い
 LoRa MiniはArduinoにも搭載されているAVR社のマイコン、ATmega328PとSX1276/78というLoRaWAN送受信用のモジュールを組み合わせたモジュールである。ATmega328Pには予めArduino UNO用のブートローダーが入っており、Arduino UNOとほぼ同じようにArduino IDEで開発できる。ただ、写真の通りピンやピンソケットがついていないため、プログラムのダウンロードやセンサーとの接続にははんだ付け作業が必要である。<br>
 一方でLoRa Miniを開発ボード化したものがLoRa Mini Dev-JPであり、USBによるプログラムのダウンロードやジャンパーワイヤーを使ったセンサーの動作確認などができるようになっている。今回のサポーター機の作成では、まずLoRa Mini Dev-JPが使えるか確認してから、LoRa Miniを使用してみた。<br>
@@ -321,7 +322,16 @@ OTAAでは、デバイスごとにことなるセッションキーやデバイ�
 
 <a id="anchor6"></a>
 ## LoRa Miniの使い方
-LoRa Mini
+[LoRa Mini Dev-JPとLoRa Miniの違い](#anchor10)で述べたように、LoRa Miniは開発用ボードではないので、USBシリアル変換モジュールや電源ポートなどもついていない。今回はLoRa通信を行えるArduino UNO用のシールドを作成するという方針でLoRa Miniを使用することにした。<br>
+LoRa MiniはAVR社のマイコン、ATmega328PとSX1276/78というLoRaWAN送受信用のモジュールを組み合わせたモジュールを組み合わせたモジュールであり、それ自身がArduino UNOと等価なマイコンを積んでいるため、Arduino UNOの上にLoRa Miniをシールドとして取り付ける方法は冗長である。本来はSX1276/78のみをシールド化できれば最善だが、市販でSX1276/78が単体で販売されていなかったので、本方法を採用した。
+
+以下で述べるLoRa Miniシールドの回路を理解を容易にするため、いくつかの事柄について説明する。
+
+### ATmega328P
+ATmega328PはAVR社のマイコンであり、Arduinoにも搭載されている。<br>
+同じ電子部品でもパッケージの種類が複数あり、例えばArduino UNOではDIP-28やTQFP-32などのパッケージのATmega328Pを用いている。
+
+
 ### 
 
 
