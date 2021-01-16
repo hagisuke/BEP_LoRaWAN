@@ -360,7 +360,7 @@ ATmega328Pにプログラムをダウンロードするには、あらかじめ�
 <img src="/image/LoRaMini/ATmega328P_TQFP_pinout.jpg" width="400">
 
 ### 回路図
-まず、ユニバーサル基板にArduino UNO用のピンソケットをはんだ付けし、以下の回路図のようにLoRa Miniとはんだ付けをした。LoRa Miniをはんだ付けするとき、[ピンヘッダー](https://akizukidenshi.com/catalog/g/gC-00167/)をLoRa Miniにはんだ付けしてからユニバーサル基板とはんだ付けをした。
+まず、ユニバーサル基板にArduino UNO用のピンソケットをはんだ付けした。その後LoRa Miniに[ピンヘッダー](https://akizukidenshi.com/catalog/g/gC-00167/)をはんだ付けして、下の回路図のようにユニバーサル基板とはんだ付けをした。
 
 <img src="" width="400">
 
