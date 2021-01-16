@@ -235,6 +235,7 @@ function Decoder(bytes, port){
 3. 「LoRa」を選択<br>
 4. 左のリストから「The Things Network」を選び、右のリストから「Cayenne LPP」を選択する<br>
 5. 以下の項目を設定すると、ダッシュボードが開く<br>
+
 |設定項目|設定内容|
 |---|---|
 |Name|表示される際の名前|
