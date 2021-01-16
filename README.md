@@ -362,8 +362,38 @@ ATmega328Pにプログラムをダウンロードするには、あらかじめ�
 ### 回路図
 まず、ユニバーサル基板にArduino UNO用のピンソケットをはんだ付けした。その後LoRa Miniに[ピンヘッダー](https://akizukidenshi.com/catalog/g/gC-00167/)をはんだ付けして、下の回路図のようにユニバーサル基板とはんだ付けをした。
 
-<img src="" width="400">
+<img src="/image/LoRaMini/LoRaMini_circuit.png" width="400">
 
+図の配線の色分けは、重なり部分を見やすくするための便宜上のもので、特に意味はない。<br>
+また、実際の配線はユニバーサル基板の裏側で行っている。
+
+ピンの対応は下の表のとおりである。
+|LoRa Mini|Arduino UNO|
+|---|---|
+|Reset|Reset|
+|RXI|D0|
+|TXO|D1|
+|LORA_NSS|D10|
+|D3|D3|
+|D4|D4|
+|GND|GND|
+|D5|D5|
+|3.3 V|3.3 V|
+|MISO|D12|
+|MOSI|D11|
+|SCK|D13|
+|GND|GND|
+|LORA_DIO3|-|
+|LORA_DIO4|-|
+|A7|-|
+|A6|-|
+|A5|A5|
+|A4|A4|
+|A3|A3|
+|A2|A2|
+|A1|A1|
+|A0|A0|
+|AREF|AREF|
 
 <a id="anchor8"></a>
 ## 放流結果
