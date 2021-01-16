@@ -418,10 +418,30 @@ LoRa Miniはアンテナが別売りなので、以下の物品を購入した�
 
 <a id="anchor9"></a>
 ## 今後の展開
+
+
 * LoRaWANゲートウェイ：LG01-JP (Dragino)  &yen; 11,142 <br>
 KKHMF LG01-P オープンソースLoRaゲートウェイ 915 MHz
 　[https://www.amazon.co.jp/dp/B0784RDBPT](https://www.amazon.co.jp/dp/B0784RDBPT)
 
 <a id="anchor10"></a>
 ## 参考文献
-1．The Things Network　「LoRaWAN」をみんなでシェアして使う（工学社）
+1. The Things Network　「LoRaWAN」をみんなでシェアして使う（工学社）<br>
+2. The Things Network ホームページ<br>
+  [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/)<br>
+3. Dragino Github Lora<br>
+  [https://github.com/dragino/Lora](https://github.com/dragino/Lora)<br>
+4. Datasheet_Lora_Mini<br>
+  [https://docs.rs-online.com/7023/A700000006486751.pdf](https://docs.rs-online.com/7023/A700000006486751.pdf)<br>
+5. myDevices ホームページ<br>
+  [https://mydevices.com/](https://mydevices.com/)<br>
+6. From Arduino to a Microcontroller on a Breadboard<br>
+  [https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoToBreadboard](https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoToBreadboard)<br>
+7. 株式会社オープンウェーブ　「ダウンロード」<br>
+  [http://www.openwave.co.jp/download/](http://www.openwave.co.jp/download/)<br>
+8. DESIGNSPARK 「LoRaWANの2つのアクティベーション方式とは？ABPとOTAAについて解説します」<br>
+  [ https://www.rs-online.com/designspark/what-is-the-activation-method-on-lorawan-abp-and-otaa-jp ](https://www.rs-online.com/designspark/what-is-the-activation-method-on-lorawan-abp-and-otaa-jp )<br>
+9. SlideSHare 「普及型 8チャンネルLoRaWANゲートウェイ LPS8-JP日本語マニュアル v1.2.0-JP」<br>
+  [https://www.slideshare.net/copstalk/8lorawan-lps8jp-v120jp](https://www.slideshare.net/copstalk/8lorawan-lps8jp-v120jp)<br>
+10. 「いまさら聞けないLoRaWAN入門」<br>
+  [https://monoist.atmarkit.co.jp/mn/articles/1709/19/news004.html](https://monoist.atmarkit.co.jp/mn/articles/1709/19/news004.html)
