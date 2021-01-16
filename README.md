@@ -4,7 +4,7 @@
 1. [概要](#anchor1)<br>
 2. [LoRaWAN](#anchor2)<br>
 3. [使用したLoRaゲートウェイ、デバイス](#anchor3)<br>
-4. [The Things NetworkとLoRa](#anchor4)<br>
+4. [The Things NetworkとLoRaWAN](#anchor4)<br>
 5. [プログラム](#anchor5)<br>
 6. [LoRa Mini Dev-JPの使い方](#anchor6)<br>
 7. [LoRa Miniの使い方](#anchor7)<br>
@@ -64,14 +64,16 @@ LoraWANゲートウェイLPS8-JPの日本語版マニュアルは以下のURLか
 <a id="anchor11"></a>
 ### LoRa Mini Dev-JPとLoRa Miniの違い
 LoRa MiniはArduinoにも搭載されているAVR社のマイコン、ATmega328PとSX1276/78というLoRaWAN送受信用のモジュールを組み合わせたモジュールである。ATmega328Pには予めArduino UNO用のブートローダーが入っており、Arduino UNOとほぼ同じようにArduino IDEで開発できる。ただ、写真の通りピンやピンソケットがついていないため、プログラムのダウンロードやセンサーとの接続にははんだ付け作業が必要である。<br>
-一方でLoRa Miniを開発ボード化したものがLoRa Mini Dev-JPであり、USBによるプログラムのダウンロードやジャンパーワイヤーを使ったセンサーの動作確認などができるようになっている。今回のサポーター機の作成では、まずLoRa Mini Dev-JPが使えるか確認してから、LoRa Miniを使用してみた。<br>
+一方でLoRa Miniを開発ボード化したものがLoRa Mini Dev-JPであり、USBによるプログラムのダウンロードやジャンパーワイヤーを使ったセンサーの動作確認などができるようになっている。今回のサポーター機の作成では、まずLoRa Mini Dev-JPが使えるか確認してから、LoRa Miniを使用してみた。
+
 LoRa Mini
 <img src="/image/LoRa_Mini.PNG" width="400">
+
 LoRa Mini Dev-JP
 <img src="/image/LoRa_Mini_Dev-JP.PNG" width="400">
 
 <a id="anchor4"></a>
-## The Things NetworkとLoRa
+## The Things NetworkとLoRaWAN
 ### The Things Network 概要
 [The Things Network（TTN）](https://www.thethingsnetwork.org/country/japan/)はLoRaWANのサービスを提供している情報共有プラットホームサービスである。LoRaWANシステムモデルの図の、ネットワークサーバーやユーザーアプリケーションを提供していると考えればよい。<br>
 今回のサポーター機の開発にあたり、このThe Things Networkを利用した。以下に登録手順や使い方を述べる。
