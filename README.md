@@ -397,13 +397,13 @@ ATmega328Pにプログラムをダウンロードするには、あらかじめ�
 
 また今回はGPSデータを取得するため、シールドにGPSセンサー用の回路を追加した。
 
-
+<image src="/image/LoRaMini/LoRaMini_GPScircuit.png">
 
 ### アンテナ
 LoRa Miniはアンテナが別売りなので、以下の物品を購入した。
-* アンテナ: RF ANT 920MHZ/1.8GHZ WHIP RA【ANT-GHEL2R-SMA】
+* アンテナ: RF ANT 920MHZ/1.8GHZ WHIP RA【ANT-GHEL2R-SMA】<br>
   [https://www.marutsu.co.jp/pc/i/28031075/](https://www.marutsu.co.jp/pc/i/28031075/)
-* アンテナ外付けケーブル: SMA-IPEX/UFL ケーブル 8cm SMAメス⇔U.FL/IPEXメス 内蔵アンテナ外付ケーブル
+* アンテナ外付けケーブル: SMA-IPEX/UFL ケーブル 8cm SMAメス⇔U.FL/IPEXメス 内蔵アンテナ外付ケーブル<br>
   [https://www.amazon.co.jp/dp/B07P9PBX5M](https://www.amazon.co.jp/dp/B07P9PBX5M)
   
 ### プログラムのダウンロード
