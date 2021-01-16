@@ -258,8 +258,27 @@ function Decoder(bytes, port){
   ※AndroidのCayenneアプリでも見れる
 
 #### DataStorageによるデータのストレージ
-#### IFTTT MakerによるWebサービス連携
+1. The Things Networkで連携するアプリケーションを選択し、インテグレーションの追加<br>
+2. 「DataStorage」を選択＞「インテグレーションの追加」をクリック（特に設定なし）<br>
+3. 概要が表示されるので、「プラットフォームに移動」をクリック<br>
+4. 表示されたページ右上の「Authorize」をクリック<br>
+5. アクセスキーはThe Things Networkでアプリケーションを選択してdefault keyを使う<br>
+6. 「Authorize」をクリックして認証完了<br>
+7. 「GET」の「Try it out!」をクリックすると、「REST」のレスポンス内容が表示される<br>
 
+<!-- 
+#### IFTTT MakerによるWebサービス連携
+※今回はTwitter連携を例にする
+1. [https://ifttt.com](https://ifttt.com )にアクセスし、アカウント作成
+2. The Things Networkの「インテグレーションの追加」で「IFTTT Maker」を選択
+3. 設定画面が開くのでそのまま開いておく
+4. IFTTTのHPの下部にある「IFTTT Platform」をクリック
+・「Get started」＞「Become a Maker」＞「Start building」で「Customize your profile」
+・別タブで連携するTwitterアカウントにログインしてから、「Twitter」を選択
+・「連携アプリを認証」すると、「Applets」の画面が開く
+・左のメニューから「Private」を選択、右上の「New Applet」をクリック
+・各項目を入力して「Save」
+-->
 </div></details>
 
 <a id="anchor5"></a>
