@@ -187,7 +187,9 @@ LoRa Mini Dev-JP
 |Preamble Length |8 |
 
 </div></details>
+
 ### エンドノードの準備
+
 <details><summary>詳細を表示</summary><div>
   
 ※ここでは温度湿度センサDHT11を使用した例を示す <br>
@@ -222,7 +224,9 @@ function Decoder(bytes, port){
 ```
 
 </div></details>
+
 ### アプリケーションとの連携
+
 <details><summary>詳細を表示</summary><div>
 
 #### Cayenneによるデータの可視化（ダッシュボード）
