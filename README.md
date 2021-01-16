@@ -83,9 +83,11 @@ LoRa Mini Dev-JP
 1．[https://www.thethingsnetwork.org/country/japan/](https://www.thethingsnetwork.org/country/japan/)にアクセス<br>
 2．「Sign Up」からユーザー名とメールアドレス、パスワードを入れて「Create account」 <br>
 3．認証メールが来るので、「Activate Account」をクリック、ログインできる <br>
+
 #### コンソール設定
-1．「CONSOLE」をクリックし、右上のユーザー名をクロックして「Settings」＞「Language」から言語を日本語にして「Save」で日本語化！<br> 
-2．同じく「設定」から「ハンドラー」＞「ttn-handler-asia-se」を選択し「保存」をしておきましょう<br>
+1．「CONSOLE」をクリックし、右上のユーザー名をクリックして「Settings」＞「Language」から言語を日本語にして「Save」で日本語化！<br> 
+2．同じく「設定」から「ハンドラー」＞「ttn-handler-asia-se」を選択し「保存」をしておく<br>
+
 #### ゲートウェイ登録
 1．「CONSOLE」＞「ゲートウェイ一覧」＞「ゲートウェイを登録」で登録画面へ <br>
 2．「I’ｍ using the legacy packet forwarder」にチェックを入れる <br>
