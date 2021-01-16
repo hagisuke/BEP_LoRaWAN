@@ -327,7 +327,9 @@ LoRa Mini Dev-JPはLoRaモジュール用の開発ボードであり、Arduino U
 
 Arduino UNOとの相違点はピンの対応のみである。以下にデータシートに記載されているピンの対応図を載せる。
 
-
+<image src="/image/LoRaMini/LoRaMini_pin.png" width="400">
+  
+出典: [https://docs.rs-online.com/7023/A700000006486751.pdf](https://docs.rs-online.com/7023/A700000006486751.pdf)
 
 <a id="anchor7"></a>
 ## LoRa Miniの使い方
@@ -353,7 +355,10 @@ TQFP-32パッケージのATmega328Pを搭載したArduino UNO
 
 画像の赤枠で囲まれた部分がATmega328Pである。ここで、DIP-28パッケージのものはATmega328Pの取り外しが可能であるが、TQFP-32パッケージのものは取り外せない。Arduino UNOにLoRa Miniシールドを載せるとき、LoRa Mini内部のATmega328Pを使わなければならないため、Arduino UNOのATmega328Pを取り外さなくてはいけない。よって、**DIP-28パッケージのATmega328Pを搭載したArduino UNO**を用いる必要がある。
 
-また、ATmega328Pにプログラムをダウンロードするには、あらかじめブートローダーを入れておく必要がある。ブートローダにも何種類かあるが、LoRa MiniのATmega328PにはあらかじめArduino UNOと同じブートローダーが入れられている。またArduino UNOとして使うにはクロック周波数は16 MHzである必要がある。ATmega328Pの内部には8 MHzの水晶振動子しかないが、LoRa Miniの回路には16 MHzの水晶振動子が組み込まれているので、こちらも気にする必要はない。
+ATmega328Pにプログラムをダウンロードするには、あらかじめブートローダーが入っている必要がある。ブートローダにも何種類かあるが、LoRa MiniのATmega328PにはあらかじめArduino UNOと同じブートローダーが入れられている。またArduino UNOとして使うにはクロック周波数は16 MHzでなければならない。ATmega328Pの内部には8 MHzの水晶振動子しかないが、LoRa Miniの回路には16 MHzの水晶振動子が組み込まれているので、こちらも気にする必要はない。
+
+参考までに、LoRa Mini内のATmega328PのパッケージはTQFP-32である。TQFP-32パッケージの場合のピンの配置は以下の図のようになっている。LoRa Miniの回路図を見る際に参考になるかもしれない。
+
 
 ### 
 
