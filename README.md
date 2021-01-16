@@ -339,9 +339,7 @@ LoRa MiniはAVR社のマイコン、ATmega328PとSX1276/78というLoRaWAN送受
 回路図の設計を行ううえで、Dragino社のGithubに掲載されているLoRa Miniの回路図などを参考にした。<br>
 [https://github.com/dragino/Lora/tree/master/LoRa%20mini/v1.3](https://github.com/dragino/Lora/tree/master/LoRa%20mini/v1.3)
 
-以下で述べるLoRa Miniシールドの回路を理解を容易にするため、まずいくつかの事柄について説明する。
-
-### ATmega328P
+### ATmega328Pについて
 ATmega328PはAVR社のマイコンであり、Arduinoにも搭載されている。<br>
 同じ電子部品でもパッケージの種類が複数あり、例えばArduino UNOではDIP-28やTQFP-32などのパッケージのATmega328Pを用いている。
 
@@ -357,11 +355,14 @@ TQFP-32パッケージのATmega328Pを搭載したArduino UNO
 
 ATmega328Pにプログラムをダウンロードするには、あらかじめブートローダーが入っている必要がある。ブートローダにも何種類かあるが、LoRa MiniのATmega328PにはあらかじめArduino UNOと同じブートローダーが入れられている。またArduino UNOとして使うにはクロック周波数は16 MHzでなければならない。ATmega328Pの内部には8 MHzの水晶振動子しかないが、LoRa Miniの回路には16 MHzの水晶振動子が組み込まれているので、こちらも気にする必要はない。
 
-参考までに、LoRa Mini内のATmega328PのパッケージはTQFP-32である。TQFP-32パッケージの場合のピンの配置は以下の図のようになっている。LoRa Miniの回路図を見る際に参考になるかもしれない。
+参考までに、LoRa Mini内のATmega328PのパッケージはTQFP-32である。TQFP-32パッケージの場合のピンの配置は以下の図のようになっている。LoRa Mini内部の回路図を見る際に参考になるかもしれない。
 
 <img src="/image/LoRaMini/ATmega328P_TQFP_pinout.jpg" width="400">
 
-### 
+### 回路図
+まず、ユニバーサル基板にArduino UNO用のピンソケットをはんだ付けし、以下の回路図のようにLoRa Miniとはんだ付けをした。LoRa Miniをはんだ付けするとき、[ピンヘッダー](https://akizukidenshi.com/catalog/g/gC-00167/)をLoRa Miniにはんだ付けしてからユニバーサル基板とはんだ付けをした。
+
+<img src="" width="400">
 
 
 <a id="anchor8"></a>
