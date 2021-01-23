@@ -109,7 +109,7 @@ LoRa Mini Dev-JP
 |項目|内容|
 |---|----|
 |プライバシー |公開範囲の設定、「公共ステータスに変更」でよい |
-|情報 |ブランドにDragino、モデルにLG01-JP、アンテナにN/Aと入れる |
+|情報 |ブランドにDragino、モデルにLPS8-JP、アンテナにN/Aと入れる |
 |コラボレータ |他のユーザーを各権限で追加できる（知らない人に注意）、今は無視 |
 
 #### アプリケーションの登録
@@ -150,11 +150,11 @@ LoRa Mini Dev-JP
 <details><summary>詳細を表示</summary><div>
 
 ※WiFiかLANでパソコンと通信できることを前提とする <br>
-1. LG01-JPのIPアドレス（デフォルトは「10.130.1.1」）をブラウザに入力し、設定画面へ<br>
+1. LPS8-JPのIPアドレスをブラウザに入力し、設定画面へ<br>
 2. Username（デフォルトは「root」）とPassword（デフォルトは「dragino」）を入力し、Login<br>
   ※Login後、Passwordは変更すべき（上部メニューの「System」＞「Administration」から変更できる ）<br>
 3. 上部メニューの「Internet」＞「Internet Access」をクリックし、ネット接続設定をする<br>
-4. TeraTermなどのSSHクライアントでLG01-JPに接続、「ping [www.openwave.co.jp](www.openwave.co.jp) 」などと打ち込み通信できることを確認する（FQDN指定でpingを実行している）<br>
+4. TeraTermなどのSSHクライアントでLPS8-JPに接続、「ping [www.openwave.co.jp](www.openwave.co.jp) 」などと打ち込み通信できることを確認する（FQDN指定でpingを実行している）<br>
 5. Web設定画面に戻り、最初の画面の「Firmware Version」が「IoT-4.3.0」であるか確認 <br>
   ※違う場合、以下の手順に従う<br>
   5-1. オープンウェーブHPの下の方の「ダウンロード」をクリック<br>
@@ -423,10 +423,6 @@ LoRa Miniはアンテナが別売りなので、以下の物品を購入した�
 <a id="anchor9"></a>
 ## 今後の展開
 
-
-* LoRaWANゲートウェイ：LG01-JP (Dragino)  &yen; 11,142 <br>
-KKHMF LG01-P オープンソースLoRaゲートウェイ 915 MHz
-　[https://www.amazon.co.jp/dp/B0784RDBPT](https://www.amazon.co.jp/dp/B0784RDBPT)
 
 <a id="anchor10"></a>
 ## 参考文献
