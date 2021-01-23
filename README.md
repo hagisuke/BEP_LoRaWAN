@@ -76,7 +76,9 @@ LoRa Mini Dev-JP
 ## The Things NetworkとLoRaWAN
 ### The Things Network 概要
 [The Things Network（TTN）](https://www.thethingsnetwork.org/country/japan/)はLoRaWANのサービスを提供している情報共有プラットホームサービスである。LoRaWANシステムモデルの図の、ネットワークサーバーやユーザーアプリケーションを提供していると考えればよい。<br>
-今回のサポーター機の開発にあたり、このThe Things Networkを利用した。以下に登録手順や使い方を述べる。
+今回のサポーター機の開発にあたり、このThe Things Networkを利用した。以下に登録手順や使い方を述べる。<br>
+[LPS8-JPのマニュアル](https://www.slideshare.net/copstalk/8lorawan-lps8jp-v120jp)も参考になる。
+
 ### The Things Networkの準備
 
 <details><summary>詳細を表示</summary><div>
@@ -150,7 +152,7 @@ LoRa Mini Dev-JP
 <details><summary>詳細を表示</summary><div>
 
 ※WiFiかLANでパソコンと通信できることを前提とする <br>
-1. LPS8-JPのIPアドレスをブラウザに入力し、設定画面へ<br>
+1. LPS8-JPのIPアドレス（デフォルトは10.130.1.1）をブラウザに入力し、設定画面へ<br>
 2. Username（デフォルトは「root」）とPassword（デフォルトは「dragino」）を入力し、Login<br>
   ※Login後、Passwordは変更すべき（上部メニューの「System」＞「Administration」から変更できる ）<br>
 3. 上部メニューの「Internet」＞「Internet Access」をクリックし、ネット接続設定をする<br>
@@ -422,7 +424,8 @@ LoRa Miniはアンテナが別売りなので、以下の物品を購入した�
 
 <a id="anchor9"></a>
 ## 今後の展開
-
+* ゲートウェイをRaspberry PiとLoRa通信用のモジュール等を載せたシールドで自作できないか試す。
+* LoRa通信を応用して何か作成？
 
 <a id="anchor10"></a>
 ## 参考文献
