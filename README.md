@@ -438,6 +438,15 @@ LoRa Miniはアンテナが別売りなので、以下の物品を購入した�
 ### 受信成功点アニメーション
 [![Youtubeへのリンク](https://img.youtube.com/vi/YcSPV9prWr4&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=YcSPV9prWr4&feature=youtu.be)
 
+### Altitude（高度）
+和邇川河口の高度は約80mであった
+
+### RSSI（電波強度）
+RSSIが大きいほど電波強度が高いことを示す。どこも-70前後であった。
+
+### SNR（電波品質）
+SNRが大きいほど電波品質が高いことを示す。<br> SNR = RSSI – ノイズ強度 <br> Wi-Fiの場合、+30以上でないと通信が悪いと言われているので、LoRaWanは電波品質が悪くてもデータを送れるといえる。どこも+10前後であった。
+
 
 <a id="anchor9"></a>
 ## 今後の展開
