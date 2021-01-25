@@ -427,8 +427,17 @@ LoRa Miniはアンテナが別売りなので、以下の物品を購入した�
 5. プログラムの書き込みを行う
 
 <a id="anchor8"></a>
+
 ## 放流結果（放流日 2021年1月16日）
 なぜかはんだ付けして作成した送信機は受信できなかったが、既存品の送信機は受信に成功した。データは[bbb.xlsx](/bbb.xlsx)を見てほしい。ちなみに使ったセンサーはGPSのみである。<br>
+
+### ブイ放流前写真
+はんだ付けして作成した送信機 <br>
+<image src="/image/Analysis/fig_3.jpg" width="400">
+<image src="/image/Analysis/fig_4.jpg" width="400">
+既存品を用いた送信機 <br>
+<image src="/image/Analysis/fig_5.jpg" width="400">
+<image src="/image/Analysis/fig_6.jpg" width="400">
 
 ### ゲートウェイ設置点
 <image src="/image/Analysis/fig_2.jpg" width="400">
