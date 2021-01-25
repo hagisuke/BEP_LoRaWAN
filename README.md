@@ -434,6 +434,7 @@ LoRa Miniはアンテナが別売りなので、以下の物品を購入した�
 
 ### 受信成功点
 <image src="/image/Analysis/fig_1.png" width="400">
+
 ### 受信成功点アニメーション
 [![Animation](https://img.youtube.com/vi/YcSPV9prWr4&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=YcSPV9prWr4&feature=youtu.be)
 
