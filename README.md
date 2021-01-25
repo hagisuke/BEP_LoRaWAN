@@ -152,6 +152,10 @@ LoRa Mini Dev-JP
 ### ゲートウェイの準備
 <details><summary>詳細を表示</summary><div>
 
+Wi-FiでLPS8-JPに接続する方法<br>
+LPS8-JPの電源を入れた際、PCにWi-Fiアクセスポイント「dragino-xxxxxx(xxxはゲートウェイによって異なる)」が表示されるので、パスワード「dargino+daragino」を入力して接続する。<br>
+「dragino-xxxxxx」が表示されない場合は、トグルボタン（側面にある小さい穴）を何度も押してみる<br>
+
 ※WiFiかLANでパソコンと通信できることを前提とする <br>
 1. LPS8-JPのIPアドレス（デフォルトは10.130.1.1）をブラウザに入力し、設定画面へ<br>
 2. Username（デフォルトは「root」）とPassword（デフォルトは「dragino」）を入力し、Login<br>
