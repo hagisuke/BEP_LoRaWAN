@@ -434,7 +434,7 @@ LoRa Miniはアンテナが別売りなので、以下の物品を購入した�
 ### ブイ放流前写真
 はんだ付けして作成した送信機 <br>
 <image src="/image/Analysis/fig_3.jpg" width="400">
-<image src="/image/Analysis/fig_4.jpg" width="400"> <br>
+<image src="/image/Analysis/fig_4.jpg" width="400"> <br><br>
 既存品を用いた送信機 <br>
 <image src="/image/Analysis/fig_5.jpg" width="400">
 <image src="/image/Analysis/fig_6.jpg" width="400">
