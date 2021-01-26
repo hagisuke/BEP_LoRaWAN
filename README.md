@@ -427,12 +427,47 @@ LoRa Miniはアンテナが別売りなので、以下の物品を購入した�
 5. プログラムの書き込みを行う
 
 <a id="anchor8"></a>
-## 放流結果
+
+## 放流結果（放流日 2021年1月16日）
+なぜかはんだ付けして作成した送信機は受信できなかったが、既存品の送信機は受信に成功した。使ったセンサーはGPSのみである。<br> <br>
+取得したデータ：[取得データ.xlsx](/取得データ.xlsx) <br>
+当日使ったプログラム：[GPS送信プログラム.ino](/GPS送信プログラム.ino)
+
+### ブイ放流前写真
+はんだ付けして作成した送信機 <br>
+<image src="/image/Analysis/fig_3.jpg" width="400">
+<image src="/image/Analysis/fig_4.jpg" width="400"> <br><br>
+既存品を用いた送信機 <br>
+<image src="/image/Analysis/fig_5.jpg" width="400">
+<image src="/image/Analysis/fig_6.jpg" width="400">
+
+### ゲートウェイ設置点
+<image src="/image/Analysis/fig_2.jpg" width="400">
+
+### 受信成功点
+<image src="/image/Analysis/fig_1.png" width="400">
+
+### 受信成功点アニメーション
+[![Youtubeへのリンク](https://img.youtube.com/vi/YcSPV9prWr4&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=YcSPV9prWr4&feature=youtu.be)
+
+### Altitude（高度）
+和邇川河口の高度は約80mであった
+
+### RSSI（電波強度）
+RSSIが大きいほど電波強度が高いことを示す。どこも-70前後であった。
+
+### SNR（電波品質）
+SNRが大きいほど電波品質が高いことを示す。<br> SNR = RSSI – ノイズ強度 <br> Wi-Fiの場合、+30以上でないと通信が悪いと言われているので、LoRaWanは電波品質が悪くてもデータを送れるといえる。どこも+10前後であった。
+
 
 <a id="anchor9"></a>
 ## 今後の展開
 * ゲートウェイをRaspberry PiとLoRa通信用のモジュール等を載せたシールドで自作できないか試す。
 * LoRa通信を応用して何か作成？
+* はんだ付けして作成した送信機がうまく動作しなかった原因の検証
+* SBPの機体に搭載して何か受信
+* 最長受信距離は何m?
+* Dragino社以外の送信機を購入してやってみる。
 
 <a id="anchor10"></a>
 ## 参考文献
