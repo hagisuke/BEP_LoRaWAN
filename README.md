@@ -56,6 +56,11 @@ WiFiと比べ通信速度が遅いというデメリットがあるが、以上�
 　[https://jp.rs-online.com/web/p/communication-wireless-development-tools/1883151/](https://jp.rs-online.com/web/p/communication-wireless-development-tools/1883151/)
 * LoRaWANデバイス2：LoRa Mini (Dragino) &yen; 10,164<br>
  [https://jp.rs-online.com/web/p/communication-wireless-development-tools/1883152/](https://jp.rs-online.com/web/p/communication-wireless-development-tools/1883152/)
+* アンテナ: RF ANT 920MHZ/1.8GHZ WHIP RA【ANT-GHEL2R-SMA】 &yen; 756<br>
+  [https://www.marutsu.co.jp/pc/i/28031075/](https://www.marutsu.co.jp/pc/i/28031075/)
+* アンテナ外付けケーブル: SMA-IPEX/UFL ケーブル 8cm SMAメス⇔U.FL/IPEXメス 内蔵アンテナ外付ケーブル &yen; 799<br>
+  [https://www.amazon.co.jp/dp/B07P9PBX5M](https://www.amazon.co.jp/dp/B07P9PBX5M)
+ 
  
 LoraWANゲートウェイLPS8-JPの日本語版マニュアルは以下のURLから参照できる。<br>
 [https://www.slideshare.net/copstalk/8lorawan-lps8jp-v120jp](https://www.slideshare.net/copstalk/8lorawan-lps8jp-v120jp)
@@ -448,7 +453,7 @@ LoRa Miniはアンテナが別売りなので、以下の物品を購入した�
 <image src="/image/Analysis/fig_1.png" width="400">
 
 ### 受信成功点アニメーション
-[![Youtubeへのリンク](https://img.youtube.com/vi/YcSPV9prWr4&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=YcSPV9prWr4&feature=youtu.be)
+[Youtubeへのリンク](https://img.youtube.com/vi/YcSPV9prWr4&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=YcSPV9prWr4&feature=youtu.be)
 
 ### Altitude（高度）
 和邇川河口の高度は約80mであった
@@ -462,12 +467,30 @@ SNRが大きいほど電波品質が高いことを示す。<br> SNR = RSSI – 
 
 <a id="anchor9"></a>
 ## 今後の展開
-* ゲートウェイをRaspberry PiとLoRa通信用のモジュール等を載せたシールドで自作できないか試す。
-* LoRa通信を応用して何か作成？
-* はんだ付けして作成した送信機がうまく動作しなかった原因の検証
-* SBPの機体に搭載して何か受信
-* 最長受信距離は何m?
-* Dragino社以外の送信機を購入してやってみる。
+
+### 生徒へLoRaWAN通信を還元するまでのハードル
+* LoRaWANの端末がそこそこのお値段する。
+* LoRa Mini（基板のみの方）をシールド化するためのはんだ付けは、初心者には困難で時間もかかる。（はんだ付けに不慣れなサポータ―で3時間）また、Arduino UNOがATmega328Pを取り外しできるタイプでなければいけない。よってLoRa Mini Dev-JP（開発用ボード）を使うのかLoRa Miniを使うか再考する必要がある。
+* LoRa Miniを用いて作成した送信機がうまく動作しなかった原因の検証
+* ゲートウェイをどうするか。<br>
+ 合宿で使用する分には既製品が1台あれば十分だが、今回のBEPのように各自1台製作するのであればRasberry PiとLoRa通信モジュールで安価に制作できないか検討する。<br>
+ [https://www.rs-online.com/designspark/building-a-raspberry-pi-powered-lorawan-gateway-jp](https://www.rs-online.com/designspark/building-a-raspberry-pi-powered-lorawan-gateway-jp)
+* 生徒向けマニュアルを作成
+
+### 今後の計画
+1. LoRa Miniを用いて作成した送信機がうまく動作しなかった原因の検証
+2. 今後の方向性の決定（生徒一人一人に渡すのか、それとも合宿、プロジェクトなどの用途に限るのか）
+3. ???
+
+### LoRa通信の応用案
+* 農業への応用
+* 河川の水位や水質のリアルタイムでの監視
+* 老朽化建築物などの点検の自動化
+* 水中ロボットへの搭載
+* SBPの機体に搭載<br>
+などなど
+
+
 
 <a id="anchor10"></a>
 ## 参考文献
