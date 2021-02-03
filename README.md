@@ -454,7 +454,7 @@ LoRa Miniはアンテナが別売りなので、以下の物品を購入した�
 
 ### 受信成功点アニメーション
 
-[Youtubeへのリンク](https://img.youtube.com/vi/YcSPV9prWr4&feature=youtu.be/0.jpg)
+[![Youtubeへのリンク](https://img.youtube.com/vi/YcSPV9prWr4&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=YcSPV9prWr4&feature=youtu.be)
 
 ### Altitude（高度）
 和邇川河口の高度は約80mであった
