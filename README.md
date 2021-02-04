@@ -448,7 +448,7 @@ LoRa Miniはアンテナが別売りなので、以下の物品を購入した�
 
 <a id="anchor8"></a>
 
-## 放流結果（放流日 2021年1月16日）
+## 放流結果（放流日 2021年1月16日（土））
 なぜかはんだ付けして作成した送信機は受信できなかったが、既存品の送信機は受信に成功した。使ったセンサーはGPSのみである。<br> <br>
 取得したデータ：[取得データ.xlsx](/取得データ.xlsx) <br>
 当日使ったプログラム：[GPS送信プログラム.ino](/GPS送信プログラム.ino)
@@ -462,7 +462,7 @@ LoRa Miniはアンテナが別売りなので、以下の物品を購入した�
 <image src="/image/Analysis/fig_6.jpg" width="400">
 
 ### 放流・回収の様子
-写真 <br>
+滋賀県大津市和邇川河口 <br>
 <image src="/image/Analysis/fig_7.png" height="200">
 <image src="/image/Analysis/fig_8.png" height="200"> <br>
 
