@@ -462,8 +462,8 @@ LoRa Miniはアンテナが別売りなので、以下の物品を購入した�
 <image src="/image/Analysis/fig_6.jpg" width="400">
 
 ### 放流・回収の様子
-<image src="/image/Analysis/fig_7.png" width="400">
-<image src="/image/Analysis/fig_8.png" width="400"> <br>
+<image src="/image/Analysis/fig_7.png" height="200">
+<image src="/image/Analysis/fig_8.png" height="200">
 
 [Facebook投稿](https://www.facebook.com/186352151439515/posts/4887357574672259/) <br>
 LIVE配信のアーカイブ
