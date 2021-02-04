@@ -461,6 +461,16 @@ LoRa Miniはアンテナが別売りなので、以下の物品を購入した�
 <image src="/image/Analysis/fig_5.jpg" width="400">
 <image src="/image/Analysis/fig_6.jpg" width="400">
 
+### 放流・回収の様子
+<image src="/image/Analysis/fig_7.png" height="300">
+<image src="/image/Analysis/fig_8.png" height="300"> <br><br>
+Facebook投稿：[https://www.facebook.com/186352151439515/posts/4887357574672259/](https://www.facebook.com/186352151439515/posts/4887357574672259/) <br>
+LIVE配信のアーカイブ <br>
+* 準備：[https://youtu.be/dgwvzyrcYEE](https://youtu.be/dgwvzyrcYEE) <br>
+* 開始～グループ２：[https://youtu.be/ArVwdoS0HKU](https://youtu.be/ArVwdoS0HKU) <br>
+* グループ３の報告～グループ５：[https://youtu.be/Upn2pfBHjsM](https://youtu.be/Upn2pfBHjsM) <br>
+* グループ6の報告～追加放流準備：[https://youtu.be/XsILmHTfFZw](https://youtu.be/XsILmHTfFZw)
+
 ### ゲートウェイ設置点
 <image src="/image/Analysis/fig_2.jpg" width="400">
 
