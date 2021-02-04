@@ -25,7 +25,7 @@
 LoRaWANはLPWA（Low Power Wide Area、省電力長距離通信）の一種であり、Semtech社のLoRa変調という技術に基づいた通信方式である。WiFiなどの2.4 GHz帯や5.0 GHz帯とは異なり、主に920 MHz帯を使っており、振動数が小さいことからわかる通り、通信速度は遅いがWiFiよりも回折しやすく、長距離通信が可能である。通信距離としては、建物が林立していなければ1 km程度は安定して通信可能であり、条件が良ければ数十キロメートル離れていても通信可能である。
 
 ### なぜLoRaWANか？
-LoRaWANを使うメリットとしては以下の3つがある。
+LoRaWANを使うメリットとしては以下の4つがある。
 * 通信距離が長い
 * 消費電力が小さい
 * 送受信できるデバイスがあれば、通信料は無料
@@ -463,13 +463,13 @@ LoRa Miniはアンテナが別売りなので、以下の物品を購入した�
 
 ### 放流・回収の様子
 <image src="/image/Analysis/fig_7.png" height="200">
-<image src="/image/Analysis/fig_8.png" height="200"> <br><br>
-Facebook投稿：[https://www.facebook.com/186352151439515/posts/4887357574672259/](https://www.facebook.com/186352151439515/posts/4887357574672259/) <br>
-LIVE配信のアーカイブ <br>
-* 準備：[https://youtu.be/dgwvzyrcYEE](https://youtu.be/dgwvzyrcYEE) <br>
-* 開始～グループ２：[https://youtu.be/ArVwdoS0HKU](https://youtu.be/ArVwdoS0HKU) <br>
-* グループ３の報告～グループ５：[https://youtu.be/Upn2pfBHjsM](https://youtu.be/Upn2pfBHjsM) <br>
-* グループ6の報告～追加放流準備：[https://youtu.be/XsILmHTfFZw](https://youtu.be/XsILmHTfFZw)
+<image src="/image/Analysis/fig_8.png" height="200"> <br>
+[Facebook投稿](https://www.facebook.com/186352151439515/posts/4887357574672259/) <br>
+LIVE配信のアーカイブ
+* [準備](https://youtu.be/dgwvzyrcYEE)
+* [開始～グループ2](https://youtu.be/ArVwdoS0HKU)
+* [グループ3の報告～グループ5](https://youtu.be/Upn2pfBHjsM)
+* [グループ6の報告～追加放流準備](https://youtu.be/XsILmHTfFZw)
 
 ### ゲートウェイ設置点
 <image src="/image/Analysis/fig_2.jpg" width="400">
