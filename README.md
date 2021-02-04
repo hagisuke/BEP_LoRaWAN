@@ -306,6 +306,9 @@ function Decoder(bytes, port){
 ## プログラム
 
 ### アクティベーション方式について
+
+<details><summary>詳細を表示</summary><div>
+
 LoRaWANではデバイスとゲートウェイ間で通信を行うが、単に通信するだけでは暗号化がされていないので、盗聴されてしまう。これは、個人情報と密接にかかわっているIoTのデータを送受信するうえで重大な問題である。<br>
 LoRaWANでは暗号化について規定があり、デバイス・ゲートウェイ間の暗号化通信の開始時にアクティベーションが必要となる。このアクティベーションの方式に2種類あり、ABP(Activation by Personalization)とOTAA(Over-The-Air Activation)である。ABPとOTAAの違いについては、以下で概説する。
 
@@ -327,6 +330,8 @@ OTAAでは、デバイスごとにことなるセッションキーやデバイ�
 TTNでのアクティベーション方式や暗号化の詳細については、[https://www.thethingsnetwork.org/docs/lorawan/security.html](https://www.thethingsnetwork.org/docs/lorawan/security.html) を参照。
 
 今回のサポーター機ではABP方式を用いた。
+
+</div></details>
 
 ### プログラムの概略
 
@@ -358,6 +363,9 @@ LoRa MiniはAVR社のマイコン、ATmega328PとSX1276/78というLoRaWAN送受
 [https://github.com/dragino/Lora/tree/master/LoRa%20mini/v1.3](https://github.com/dragino/Lora/tree/master/LoRa%20mini/v1.3)
 
 ### ATmega328Pについて
+
+<details><summary>詳細を表示</summary><div>
+
 ATmega328PはAVR社のマイコンであり、Arduinoにも搭載されている。<br>
 同じ電子部品でもパッケージの種類が複数あり、例えばArduino UNOではDIP-28やTQFP-32などのパッケージのATmega328Pを用いている。
 
@@ -377,7 +385,12 @@ ATmega328Pにプログラムをダウンロードするには、あらかじめ�
 
 <img src="/image/LoRaMini/ATmega328P_TQFP_pinout.jpg" width="400">
 
+</div></details>
+
 ### 回路図
+
+<details><summary>詳細を表示</summary><div>
+
 まず、ユニバーサル基板にArduino UNO用のピンソケットをはんだ付けした。その後LoRa Miniに[ピンヘッダー](https://akizukidenshi.com/catalog/g/gC-00167/)をはんだ付けして、下の回路図のようにユニバーサル基板とはんだ付けをした。
 
 <img src="/image/LoRaMini/LoRaMini_circuit.png" width="400">
@@ -416,6 +429,8 @@ ATmega328Pにプログラムをダウンロードするには、あらかじめ�
 また今回はGPSデータを取得するため、シールドにGPSセンサー用の回路を追加した。
 
 <image src="/image/LoRaMini/LoRaMini_GPScircuit.png" width="400">
+
+</div></details>
 
 ### アンテナ
 LoRa Miniはアンテナが別売りなので、以下の物品を購入した。
