@@ -507,6 +507,7 @@ SNRが大きいほど電波品質が高いことを示す。<br> SNR = RSSI – 
  LoRa Miniを2台使用して送受信を行う方法もある。<br>
  [https://wiki.dragino.com/index.php?title=LoRa_Mini](https://wiki.dragino.com/index.php?title=LoRa_Mini)
 * 生徒向けマニュアルを作成
+* 様々な環境での通信距離の検証
 
 ### 今後の計画
 1. LoRa Miniを用いて作成した送信機がうまく動作しなかった原因の検証
