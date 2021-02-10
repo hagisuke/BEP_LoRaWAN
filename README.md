@@ -341,6 +341,8 @@ TTNでのアクティベーション方式や暗号化の詳細については�
 * [Arduino-LMIC library](https://github.com/matthijskooijman/arduino-lmic)
 * [CayenneLPP library](https://github.com/ElectronicCats/CayenneLPP)
 * [TinyGPSPlus library](https://github.com/mikalhart/TinyGPSPlus)
+  
+  なお、[librariesフォルダー](/libraries)に今回使ったプログラムに必要なライブラリーを全て載せた。
 
 #### プログラムの説明
 
