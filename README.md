@@ -1,4 +1,4 @@
-# BEP_LoRaWAN　マニュアル
+# BEP_LoRaWAN　実証実験報告マニュアル
 
 ## 目次
 1. [概要](#anchor1)<br>
@@ -18,6 +18,7 @@
 
 プロジェクトの参加者が製作を進めるのと同時並行で、当会のサポーター4名でサポーター機の製作を行った。プロジェクト参加者の観測機はArduinoにセンサーを繋げ、SDカードにセンサー値を記録するというものだが、サポーター機ではLoRaWANを用いてリアルタイムで観測したデータを送受信できるデバイスを作成した。本稿ではLoRaWANに焦点を当てて、作成したデバイスについてまとめる。
 
+**なお、取得データの所有権および当リポジトリの著作権はe-kagakuにあるため、データ・文章・画像等の内容の無断転載及び複製等の行為はご遠慮ください。（連絡先：science.labo008@gmail.com）**
 
 <a id="anchor2"></a>
 ## LoRaWAN
@@ -556,3 +557,6 @@ SNRが大きいほど電波品質が高いことを示す。<br> SNR = RSSI – 
   [https://www.rs-online.com/designspark/building-a-raspberry-pi-powered-lorawan-gateway-jp](https://www.rs-online.com/designspark/building-a-raspberry-pi-powered-lorawan-gateway-jp)
 12. Dragino Wiki 「Lora Mini」<br>
   [https://wiki.dragino.com/index.php?title=LoRa_Mini](https://wiki.dragino.com/index.php?title=LoRa_Mini)
+
+
+e-kagakuアカデミー©e-kagaku Academy All Rights Reserved.
